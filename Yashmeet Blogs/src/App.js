@@ -21,7 +21,7 @@ export default function App() {
     const page =  searchParams.get("page") ?? 1;
 
     if(location.pathname.includes("tags")) {
-      //iska matlab tag wala page show krna h 
+       
       const tag = location.pathname.split("/").at(-1).replaceAll("-"," ");
       fetchBlogPosts(Number(page), tag);
     }
@@ -35,11 +35,14 @@ export default function App() {
   }, [location.pathname, location.search]);
 
   return (
+      <div>
+       
     <Routes>
-      <Route path="/" element = {<Home/>}   />
+      <Route path="/YashmeetBlogs" element = {<Home/>}   />
       <Route path="/blog/:blogId" element = {<BlogPage/>}   />
       <Route path="/tags/:tag" element = {<TagPage/>}   />
       <Route path="/categories/:category" element = {<CategoryPage/>}   />
     </Routes>
+    </div>
   );
 }
