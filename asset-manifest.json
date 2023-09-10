@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/YashmeetBlogs/static/css/main.f0c398e1.css",
+    "main.js": "/YashmeetBlogs/static/js/main.0f87cd3e.js",
+    "index.html": "/YashmeetBlogs/index.html",
+    "main.f0c398e1.css.map": "/YashmeetBlogs/static/css/main.f0c398e1.css.map",
+    "main.0f87cd3e.js.map": "/YashmeetBlogs/static/js/main.0f87cd3e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f0c398e1.css",
+    "static/js/main.0f87cd3e.js"
+  ]
+}
